@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/css?family=Grenze|Montserrat:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
 	<title>Articles</title>
 </head>
@@ -16,19 +17,28 @@
 			</div>
 			<nav class="nav">
 				<a class="nav_link" href="D:\Прога\first try.html">Главная</a>
-				<a class="nav_link" href="D:\Прога\cities.html">Города</a>
+				<a class="nav_link" href="{% url 'cities' %}">Города</a>
 				<a class="nav_link" href="D:\Прога\magic.html">Магия</a>
 				<a class="nav_link" href="D:\Прога\fun.html">Юмор</a>
-				<a class="nav_link active" href="D:\Прога\forum.html">Статьи</a>
+				<a class="nav_link active" href="">Статьи</a>
 				<a class="nav_link" href="D:\Прога\enter.html">Вход</a>
 			</nav>
 		</div>
 	</div>
 </header>
 
+    <div>
+        <a href="{% url 'post_new' %}" class="top-menu"><span></span></a>
+    </div>
 
-    {% block content %}
-    {% endblock %}
+    <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
 
 </body>
 </html>

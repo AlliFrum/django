@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	<link href="https://fonts.googleapis.com/css?family=Grenze|Montserrat:400,700&display=swap" rel="stylesheet">
+	<title>Cities</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header_inner">
+				<div class="header_logo">
+					<!--<form action="" method="get">
+					<input name="s" placeholder="Искать здесь..." type="search">
+					<button type="submit">Поиск</button>
+				</form>-->
+				</div>
+				<nav class="nav">
+					<a class="nav_link" href="D:\Прога\first try.html">Главная</a>
+					<a class="nav_link active" href="D:\Прога\cities.html">Города</a>
+					<a class="nav_link" href="D:\Прога\magic.html">Магия</a>
+					<a class="nav_link" href="D:\Прога\fun.html">Юмор</a>
+					<a class="nav_link" href="">Статьи</a>
+					<a class="nav_link" href="D:\Прога\enter.html">Вход</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="cont">
+		<h1>Города</h1>
+		<table class="tbl">
+			<tr><td></td><td class="txt">"Положительные" города</td><td></td></tr>
+			<tr>
+				<td><a class="nav_link" href="#"><img src="{% static 'images/castle.jpg' %}" width="320"  height="150" onclick="soundClick()"></a></td>
+				<td><a class="nav_link" href="#"><img src="{% static 'images/tower.jpg' %}" width="320"  height="150"></a></td>
+				<td><a class="nav_link" href="#"><img src="{% static 'images/elves.jpg' %}" width="320"  height="150"></a></td>
+			</tr>
+			<tr><td></td><td class="txt">"Нейтральные" города</td><td></td></tr>
+			<tr>
+				<td><a class="nav_link" href="#"><img src="{% static 'images/colony.jpg' %}" width="320"  height="150"></a></td>
+				<td><a class="nav_link" href="#"><img src="{% static 'images/fortress.jpg' %}" width="320"  height="150"></a></td>
+				<td><a class="nav_link" href="#"><img src="{% static 'images/citadel.jpg' %}" width="320"  height="150"></a></td>
+			</tr>
+			<tr><td></td><td class="txt">"Отрицательные" города</td><td></td></tr>
+			<tr>
+				<td><a class="nav_link" href="#"><img src="{% static 'images/inferno.jpg' %}" width="320"  height="150"></a></td>
+				<td><a class="nav_link" href="#"><img src="{% static 'images/dungeon.jpg' %}" width="320"  height="150"></a></td>
+				<td><a class="nav_link" href="#"><img src="{% static 'images/necropolis.jpg' %}" width="320"  height="150"></a></td>
+			</tr>
+		</table>
+		
+	</div>
+
+</body>
+</html>
