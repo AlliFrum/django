@@ -150,3 +150,14 @@ h3 {
 	background-color: #fff;
 	color: #ffc300;
 }
+
+.post {
+	margin: 100px;
+	alignment: center;
+}
+
+.title {
+	text-decoration: none;
+	color: black;
+	font-family: 'Grenze', serif;
+}
