@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b811d924-ae7a-4a78-b064-95e6f160eaeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/cities.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/cities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/first try.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/first try.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/fun.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/fun.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/magic.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/magic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/comments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +80,7 @@
       <workItem from="1575799489368" duration="26246000" />
       <workItem from="1576216146164" duration="3272000" />
       <workItem from="1576318302697" duration="4088000" />
-      <workItem from="1576765160515" duration="17572000" />
+      <workItem from="1576765160515" duration="18192000" />
     </task>
     <servers />
   </component>
