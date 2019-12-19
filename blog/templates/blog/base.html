@@ -16,19 +16,19 @@
 			<div class="header_logo">
 			</div>
 			<nav class="nav">
-				<a class="nav_link" href="D:\Прога\first try.html">Главная</a>
+				<a class="nav_link" href="{% url 'first try' %}">Главная</a>
 				<a class="nav_link" href="{% url 'cities' %}">Города</a>
 				<a class="nav_link" href="D:\Прога\magic.html">Магия</a>
 				<a class="nav_link" href="D:\Прога\fun.html">Юмор</a>
-				<a class="nav_link active" href="">Статьи</a>
-				<a class="nav_link" href="D:\Прога\enter.html">Вход</a>
+				<a class="nav_link active" href="{% url 'post_list' %}">Статьи</a>
+				<a class="nav_link" href="">Вход</a>
 			</nav>
 		</div>
 	</div>
 </header>
 
     <div>
-        <a href="{% url 'post_new' %}" class="top-menu"><span></span></a>
+        <a href="{% url 'post_new' %}"><span></span></a>
     </div>
 
     <div class="content container">

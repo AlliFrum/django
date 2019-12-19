@@ -45,3 +45,15 @@ def post_edit(request, pk):
 
 def cities(request):
     return render(request, 'blog/cities.html', {})
+
+
+def main(request):
+    return render(request, 'blog/first try.html', {})
+
+
+def magic(request):
+    return render(request, 'blog/magic.html', {})
+
+
+def fun(request):
+    return render(request, 'blog/fun.html', {})

@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Grenze|Montserrat:400,700&display=swap" rel="stylesheet">
+	<title>Magic</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header_inner">
+				<div class="header_logo">
+					<!--<form action="" method="get">
+					<input name="s" placeholder="Искать здесь..." type="search">
+					<button type="submit">Поиск</button>
+				</form>-->
+				</div>
+				<nav class="nav">
+					<a class="nav_link" href="{% url 'first try' %}">Главная</a>
+					<a class="nav_link" href="{% url 'cities'%}">Города</a>
+					<a class="nav_link active" href="{% url 'magic' %}">Магия</a>
+					<a class="nav_link" href="{% url 'fun' %}">Юмор</a>
+					<a class="nav_link" href="{% url 'post_list' %}">Статьи</a>
+					<a class="nav_link" href="D:\Прога\enter.html">Вход</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="cont">
+		<h1>Магия</h1>
+		<!--<p class="txt">Существует 4 стихии магии:</p>
+		<div class="flt">
+			<p class="txt">Магия имеет 3 степени развития:</p>
+			<ol id="one">
+				<li>Основная</li>
+				<li>Продвинутая</li>
+				<li>Экспертная</li>
+			</ol>
+		</div>-->
+		<ul class="list">
+		    <li>Вода</li>
+		    <li>Земля</li>
+		    <li>Огонь</li>
+		    <li>Воздух</li>
+		</ul>
+	</div>
+
+	<script>
+	function ScrollUp(){
+	    var t,s;
+	    s=document.body.scrollTop||window.pageYOffset;
+	    t=setInterval(function(){if(s>0)window.scroll(0,s-=4);else clearInterval(t)},4);
+	}
+	</script>
+
+
+<div class="txt">
+	<h2 align="center">Магия земли</h2>
+	<table class="tbl">
+	<tr>
+		<td>Название</td><td>Уровень</td><td>Мана</td><td>Длительность</td>
+		<td>Базовый</td><td>Продвинутый</td><td>Эксперт</td>
+	</tr>
+	<tr><td>Щит</td><td>1</td><td>5</td><td>Сила</td><td>Уменьшает прямой урон по вашему юниту на 15%</td><td>Уменьшает прямой урон по вашему юниту на 30%</td><td>Уменьшает прямой урон по всем вашим юнитам на 30%</td></tr>
+	<!--<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>-->
+	
+	</table>
+</div>
+
+
+
+	<a href="#top" onclick="ScrollUp();return!1;" class="up">Наверх</a>
+
+</body>
+</html>

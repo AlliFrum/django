@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Grenze|Montserrat:400,700&display=swap" rel="stylesheet">
+	<title>Magic</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header_inner">
+				<div class="header_logo">
+					<!--<form action="" method="get">
+					<input name="s" placeholder="Искать здесь..." type="search">
+					<button type="submit">Поиск</button>
+				</form>-->
+				</div>
+				<nav class="nav">
+					<a class="nav_link" href="{% url 'first try' %}">Главная</a>
+					<a class="nav_link" href="{% url 'cities'%}">Города</a>
+					<a class="nav_link" href="{% url 'magic' %}">Магия</a>
+					<a class="nav_link active" href="{% url 'fun' %}">Юмор</a>
+					<a class="nav_link" href="{% url 'post_list' %}">Статьи</a>
+					<a class="nav_link" href="D:\Прога\enter.html">Вход</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="cont">
+		<h3>Нравится ли Вам игра "Heroes of Might and Magic III"?</h3>
+		<button class="yes" onmouseDown="alert('Отлично, мне тоже ;)');" value="Да!">Да!</button>
+		<span id="button1" style="position:relative;z-index:10" onmouseOver="moveIt()" onfocus="moveIt();this.blur()">
+			<button class="yes" onmouseDown="moveIt()" onmouseover="moveIt()" onfocus="moveIt();this.blur()">Нет</button>
+		</span>
+
+		<script type="text/javascript">
+		function getObj(objID)
+		{
+		    if (document.getElementById) {return document.getElementById(objID);}
+		    else if (document.all) {return document.all[objID];}
+		    else if (document.layers) {return document.layers[objID];}
+		}
+
+		var ie4=document.all
+		var ns6=document.getElementById&&!document.all
+		cobj=getObj("button1");
+
+		function moveIt(){
+		y=Math.floor(Math.random()*201);
+		x=Math.floor(Math.random()*301);
+		if (ie4){
+		    cobj.style.top  = y;
+		    cobj.style.left = x;
+		    }
+		else if (ns6){
+		    cobj.style.top  = y+"px";
+		    cobj.style.left = x+"px";
+		    }
+		}
+		</script>
+	</div>
+
+
+</body>
+</html>

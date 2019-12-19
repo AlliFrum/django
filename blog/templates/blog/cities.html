@@ -18,11 +18,11 @@
 				</form>-->
 				</div>
 				<nav class="nav">
-					<a class="nav_link" href="D:\Прога\first try.html">Главная</a>
-					<a class="nav_link active" href="D:\Прога\cities.html">Города</a>
-					<a class="nav_link" href="D:\Прога\magic.html">Магия</a>
-					<a class="nav_link" href="D:\Прога\fun.html">Юмор</a>
-					<a class="nav_link" href="">Статьи</a>
+					<a class="nav_link" href="{% url 'first try' %}">Главная</a>
+					<a class="nav_link active" href="{% url 'cities'%}">Города</a>
+					<a class="nav_link" href="{% url 'magic' %}">Магия</a>
+					<a class="nav_link" href="{% url 'fun' %}">Юмор</a>
+					<a class="nav_link" href="{% url 'post_list' %}">Статьи</a>
 					<a class="nav_link" href="D:\Прога\enter.html">Вход</a>
 				</nav>
 			</div>
