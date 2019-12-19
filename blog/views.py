@@ -57,3 +57,9 @@ def magic(request):
 
 def fun(request):
     return render(request, 'blog/fun.html', {})
+
+
+def comments(request):
+    return render(request, 'blog/comments.html', {})
+
+

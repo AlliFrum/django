@@ -10,4 +10,5 @@ urlpatterns = [
     path('main', views.main, name='first try'),
     path('magic', views.magic, name='magic'),
     path('fun', views.fun, name='fun'),
+    path('comments', views.comments, name='comments'),
 ]
